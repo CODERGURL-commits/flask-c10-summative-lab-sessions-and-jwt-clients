@@ -33,10 +33,11 @@ git clone <your-repo-link>
 cd flask-c10-summative``
 
 python -m venv venv
-``# Windows:
-.\venv\Scripts\activate
+
+# Windows:
+``.\venv\Scripts\activate``
 # Mac/Linux:
-source venv/bin/activate``
+``source venv/bin/activate``
 
 # 2. Install Dependencies
 ``Bash
