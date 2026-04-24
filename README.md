@@ -67,7 +67,8 @@ Running the server:
 flask run``
 Example: Protecting a Route with JWT
 Python
-``from functools import wraps
+```
+from functools import wraps
 from flask import request, jsonify
 import jwt
 `
@@ -82,7 +83,8 @@ def token_required(f):
         except:
             return jsonify({'message': 'Token is invalid!'}), 401
         return f(*args, **kwargs)
-    return decorated``
+    return decorated
+```
 
 ## Project Structure
 
